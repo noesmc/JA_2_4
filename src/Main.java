@@ -7,11 +7,11 @@ public class Main {
                         "TNT", "Victory", "MTV", "Nickelodeon", "Disney"
                 };
         int amount = channel.length;
-        System.out.println("Program is: " );
+        System.out.println("Program is: ");
 
         for (int i = 1; i < amount; i++) {
             System.out.println(i + " - " + channel[i]);
-            if ( i == amount - 1) {
+            if (i == amount - 1) {
                 System.out.println("0 - Exit");
             }
         }
